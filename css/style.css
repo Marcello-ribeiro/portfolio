@@ -156,6 +156,15 @@ h1{
     max-width: 1200px;
     margin: 0 auto;
 }
+.desprojetos-img{
+    padding-top: 20px;
+    display: flex;
+    height: 150px;
+    object-fit: cover;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
 
 .projetos-cards{
     background: rgba(255, 255, 255, 0.05);
@@ -246,6 +255,28 @@ h1{
     transition: all 0.5s ease;
 }
 .bt-form:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.6);
+}
+.bt-projeto{
+    margin: 0 auto;
+    display: block;
+    color: var(--claro);
+    background: linear-gradient(45deg, var(--primaria), var(--secundaria));
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bt-projeto:hover{
     transform: translateY(-4px);
     box-shadow: 0 0 10px rgba(79, 70, 229, 0.6);
 }
