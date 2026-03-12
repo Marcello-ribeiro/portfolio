@@ -16,7 +16,7 @@ scroll-behavior:smooth;
     --escuro:#0f172a;
     --maisescuro:#0a0f1c;
     --claro:#e2e8f0;
-    --vidro:rgba(255, 255, 255, 0.1);
+    --vidro:    
 
 }
 
@@ -91,6 +91,7 @@ h1{
 }
 
 .foto{
+    object-fit: cover;
     width: 250px;
     height: 250px;
     box-shadow: 0 0 20px rgba(79, 70, 229, 0.6);
