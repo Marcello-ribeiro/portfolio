@@ -1,0 +1,105 @@
+<<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>portfolio</title>
+</head>
+<body>
+
+    <div class="particulas">
+
+    </div>
+    <nav class="navegacao" >
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Inicio</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contatos" class="menu-link">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="img/logo.png" alt="" class="foto">
+            <h1>Marcelo Ribeiro</h1>
+            <p class="cabecalho-p">Desenvolvedor Web</p>
+        </div>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-p">Sou um desenvolvedor web apaixonado por tecnologia e pela criação de sites. Tenho grande interesse em tudo que envolve desenvolvimento para a web e gosto de transformar ideias em páginas bem estruturadas, organizadas e funcionais.
+
+            Busco sempre aprender mais sobre programação e desenvolvimento web, explorando novas formas de melhorar meus projetos e evoluir minhas habilidades
+            </p>
+        </div>
+        <div class="conhecimento">
+            <h2>SKILLS</h2>
+            <div class="skills" >
+                <img src="img/html.png" width="95px">
+                <img src="img/css3.png" width="110px">
+                <img src="img/Sem título.png" width="75px">
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section id="projetos" class="Projetos">
+        <h2 class="Projetos-title"> Meus projetos</h2>
+        <div class="projetos-caixa">
+            <div class="miprojetos-cards">
+                <a href="https://www.millysarts.shop/" target=""><img src="img/millys.png" class="projetos-img"></a>
+                <div class="caixa-projetos-caixa">
+                <h3 class="info-projetos">Loja de arts</h3>
+                <p class="p-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laudantium voluptates esse ex ut facere itaque.</p>
+                </div>
+                 <a  href="https://www.millysarts.shop/" target="_blank"><button type="submit" class="bt-projeto">Visitar site</button></a>
+            </div>
+
+            <div class="projetos-cards">
+                <img src="img/carregando.png"  class="desprojetos-img">
+                <div class="caixa-projetos-caixa">
+                <h3 class="info-projetos">A desenvolver</h3>
+                <p class="p-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laudantium voluptates esse ex ut facere itaque.</p>
+                </div>
+            </div>
+
+            <div class="projetos-cards">
+                <img src="img/carregando.png"  class="desprojetos-img">
+                <div class="caixa-projetos-caixa">
+                <h3 class="info-projetos">A desenvolver</h3>
+                <p class="p-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laudantium voluptates esse ex ut facere itaque.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-title">Entre em Contato</h2>
+
+        <form class="formulario-ctt" id="formulario" onsubmit="enviarwhats(event)">
+
+            <div class="grupo-form"> 
+                <input placeholder="Digite seu nome" class="campo-form" id="nome" required>
+            </div>
+            
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="5" id="mensagem" required></textarea>
+            </div>
+            
+            <button type="submit" class="bt-form">
+                Enviar para whatsapp
+            </button>
+        </form>
+        <div class="logos">
+            <a href="https://wa.me/5582991156122" target="_blank"><img src="img/12654275.png" width="30px" class="zap"></a>
+            <a href="https://www.instagram.com/marcello.lzz" target="_blank"><img src="img/pngtree-instagram-icon-instagram-logo-png-image_3584852.png" width="30px" class="insta"></a>
+        </div>
+    </section>
+<script src="js/script.js"></script>
+</body>
+</html>
