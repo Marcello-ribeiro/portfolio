@@ -98,9 +98,9 @@ body{
     object-fit: cover;
     width: 250px;
     height: 250px;
-    box-shadow: 0 0 20px rgba(79, 70, 229, 0.6);
+    box-shadow: 0 0 30px rgba(79, 70, 229, 0.6);
     border-radius: 50%;
-    border:  4px solid var(--vidro); 
+    border:  1px solid var(--vidro); 
 }
 
 .sobre{
@@ -131,7 +131,7 @@ body{
 }
 
 .Projetos{
-    padding: 6rem 2rem;
+    padding: 1rem 1.5rem;
 }
 
 .Projetos-title{
@@ -301,8 +301,8 @@ a{
 }
 
 .conhecimento{
-    margin-top: 10px;
-    padding: 30px;
+    padding-top: 70px;
+    margin-bottom: 0px;
 }
 
 .skills{
